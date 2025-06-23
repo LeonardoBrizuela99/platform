@@ -10,7 +10,7 @@ public class InputReader : MonoBehaviour
 
     public Vector2 MovementValue { get; private set; }
 
-    // Declaramos los eventos para el salto.
+    
     public event Action jumpStarted;
     public event Action jumpCanceled;
 
