@@ -1,25 +1,25 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: C:/Users/Leonardo/Desktop/platform/Packages/manifest.json
+    m_FilePath: C:/Users/Aula 2/Desktop/platform/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638862502725819341
+      ticks: 638862855193929027
     m_Hash: 2759832191
   m_LockFileStatus:
-    m_FilePath: C:/Users/Leonardo/Desktop/platform/Packages/packages-lock.json
+    m_FilePath: C:/Users/Aula 2/Desktop/platform/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638862502725854539
-    m_Hash: 886164167
+      ticks: 638862866714520624
+    m_Hash: 2782029650
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: C:/Users/Leonardo/Desktop/platform/Packages
+m_ProjectPath: C:/Users/Aula 2/Desktop/platform/Packages
 m_EditorVersion: 6000.0.44f1 (101c91f3a8fb)
 m_ResolvedPackages:
 - packageId: com.unity.collab-proxy@2.8.2
@@ -27,7 +27,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.8.2
   source: 1
-  resolvedPath: C:\Users\Leonardo\Desktop\platform\Library\PackageCache\com.unity.collab-proxy@c854d1f7d97f
+  resolvedPath: C:\Users\Aula 2\Desktop\platform\Library\PackageCache\com.unity.collab-proxy@c854d1f7d97f
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Version Control
@@ -192,7 +192,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.2
   source: 2
-  resolvedPath: C:\Users\Leonardo\Desktop\platform\Library\PackageCache\com.unity.feature.development@767aadbc6eb7
+  resolvedPath: C:\Users\Aula 2\Desktop\platform\Library\PackageCache\com.unity.feature.development@767aadbc6eb7
   assetPath: Packages/com.unity.feature.development
   name: com.unity.feature.development
   displayName: Engineering
@@ -229,7 +229,7 @@ m_ResolvedPackages:
     version: default
   resolvedDependencies:
   - name: com.unity.ide.visualstudio
-    version: 2.0.22
+    version: 2.0.23
   - name: com.unity.test-framework
     version: 1.5.1
   - name: com.unity.ext.nunit
@@ -239,7 +239,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.ide.rider
-    version: 3.0.31
+    version: 3.0.36
   - name: com.unity.editorcoroutines
     version: 1.0.0
   - name: com.unity.performance.profile-analyzer
@@ -293,7 +293,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.13.1
   source: 1
-  resolvedPath: C:\Users\Leonardo\Desktop\platform\Library\PackageCache\com.unity.inputsystem@e2c83221d2dc
+  resolvedPath: C:\Users\Aula 2\Desktop\platform\Library\PackageCache\com.unity.inputsystem@e2c83221d2dc
   assetPath: Packages/com.unity.inputsystem
   name: com.unity.inputsystem
   displayName: Input System
@@ -443,7 +443,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Leonardo\Desktop\platform\Library\PackageCache\com.unity.multiplayer.center@f3fb577b3546
+  resolvedPath: C:\Users\Aula 2\Desktop\platform\Library\PackageCache\com.unity.multiplayer.center@f3fb577b3546
   assetPath: Packages/com.unity.multiplayer.center
   name: com.unity.multiplayer.center
   displayName: Multiplayer Center
@@ -533,7 +533,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.8.7
   source: 1
-  resolvedPath: C:\Users\Leonardo\Desktop\platform\Library\PackageCache\com.unity.timeline@c58b4ee65782
+  resolvedPath: C:\Users\Aula 2\Desktop\platform\Library\PackageCache\com.unity.timeline@c58b4ee65782
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -719,7 +719,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.0
   source: 2
-  resolvedPath: C:\Users\Leonardo\Desktop\platform\Library\PackageCache\com.unity.ugui@a9eaa85fb1b8
+  resolvedPath: C:\Users\Aula 2\Desktop\platform\Library\PackageCache\com.unity.ugui@a9eaa85fb1b8
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: Unity UI
@@ -814,7 +814,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.9.6
   source: 1
-  resolvedPath: C:\Users\Leonardo\Desktop\platform\Library\PackageCache\com.unity.visualscripting@7dcdc439b230
+  resolvedPath: C:\Users\Aula 2\Desktop\platform\Library\PackageCache\com.unity.visualscripting@7dcdc439b230
   assetPath: Packages/com.unity.visualscripting
   name: com.unity.visualscripting
   displayName: Visual Scripting
@@ -3362,12 +3362,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 
-- packageId: com.unity.ide.visualstudio@2.0.22
+- packageId: com.unity.ide.visualstudio@2.0.23
   testable: 0
   isDirectDependency: 0
-  version: 2.0.22
+  version: 2.0.23
   source: 1
-  resolvedPath: C:\Users\Leonardo\Desktop\platform\Library\PackageCache\com.unity.ide.visualstudio@8140e851d83e
+  resolvedPath: C:\Users\Aula 2\Desktop\platform\Library\PackageCache\com.unity.ide.visualstudio@198cdf337d13
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -3376,7 +3376,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: assets
+  type: 
   description: Code editor integration for supporting Visual Studio as code editor
     for unity. Adds support for generating csproj files for intellisense purposes,
     auto discovery of installations, etc.
@@ -3438,13 +3438,13 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638326061910000000
+  datePublishedTicks: 638786696173840000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.visualstudio@2.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.visualstudio.git
-    revision: 700b44077345e97d37d464ff25507638983aed64
+    revision: 0fe3b29f9aff2b90b9f0962ae35036a824d3dd6b
     path: 
   unityLifecycle:
     version: 2.0.22
@@ -3457,25 +3457,24 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"Integration:\n\n- Add support for `XDG_DATA_DIRS` and
-    `.desktop` files on Linux for `VS Code` discovery.\n- Use compile-time platform-specifics
-    instead of using runtime conditions.\n\nProject generation:\n\n- Suppress `USG0001`
-    warnings.\n- Mark referenced assemblies as private (to not copy extra files to
-    output directory when building).\n- Add Unity capability to SDK-Style projects.\n-
-    Prevent circular dependency errors with SDK-Style projects."}'
+  upmReserved: '{"changelog":"Integration:\n\n- Monitor `additionalfile` extension
+    by default.\n- Try opening a Visual Studio Code workspace if there''s one (`.code-workspace`
+    file in the Unity project).\n\nProject generation:\n\n- Identify `asset`, `meta`,
+    `prefab` and `unity` files as `yaml` (Visual Studio Code).\n- Add `sln`/`csproj`
+    file nesting (Visual Studio Code).\n- Improve SDK style project generation."}'
   assetStore:
     productId: 
-  fingerprint: 8140e851d83e922ca2021b04a89519de94ebe38c
+  fingerprint: 198cdf337d13c83ca953581515630d66b779e92b
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 2.0.22
     minimumUnityVersion: 2019.4.25f1
-- packageId: com.unity.ide.rider@3.0.31
+- packageId: com.unity.ide.rider@3.0.36
   testable: 0
   isDirectDependency: 0
-  version: 3.0.31
+  version: 3.0.36
   source: 1
-  resolvedPath: C:\Users\Leonardo\Desktop\platform\Library\PackageCache\com.unity.ide.rider@7921be93db40
+  resolvedPath: C:\Users\Aula 2\Desktop\platform\Library\PackageCache\com.unity.ide.rider@4d374c7eb6db
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -3484,7 +3483,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: assets
+  type: 
   description: The JetBrains Rider Editor package provides an integration for using
     the JetBrains Rider IDE as a code editor for Unity. It adds support for generating
     .csproj files for code completion and auto-discovery of installations.
@@ -3563,13 +3562,13 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638548308080000000
+  datePublishedTicks: 638799562419060000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.rider@3.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
-    revision: ccd778a2275ff09f1a83bc924cfb2fb4d5b63566
+    revision: b5315083ab3861d21f6ab2ed0d9514daf04bf208
     path: 
   unityLifecycle:
     version: 3.0.31
@@ -3582,23 +3581,21 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"fix RIDER-104519 Rider is reporting errors in scripts
-    that work fine in Unity when utilizing DOTS - when Player project, by generating
-    projects for all assemblies in \"com.unity.entities\", \"com.unity.collections\"\nfix
-    RIDER-111622 Unity Rider package is not compatible with Rider Dev builds"}'
+  upmReserved: '{"changelog":"- fix RIDER-124592 Avoid affecting \"Strip Engine Code\"
+    while IL2CPP debug enabled"}'
   assetStore:
     productId: 
-  fingerprint: 7921be93db40ec070fcb01ed82d1c3df1bbdddcd
+  fingerprint: 4d374c7eb6db6907c7e6925e3086c3c73f926e13
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 3.0.31
-    minimumUnityVersion: 2019.2.6f1
+    minimumUnityVersion: 2019.4.6f1
 - packageId: com.unity.editorcoroutines@1.0.0
   testable: 0
   isDirectDependency: 0
   version: 1.0.0
   source: 1
-  resolvedPath: C:\Users\Leonardo\Desktop\platform\Library\PackageCache\com.unity.editorcoroutines@7d48783e7b8c
+  resolvedPath: C:\Users\Aula 2\Desktop\platform\Library\PackageCache\com.unity.editorcoroutines@7d48783e7b8c
   assetPath: Packages/com.unity.editorcoroutines
   name: com.unity.editorcoroutines
   displayName: Editor Coroutines
@@ -3675,7 +3672,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.2.3
   source: 1
-  resolvedPath: C:\Users\Leonardo\Desktop\platform\Library\PackageCache\com.unity.performance.profile-analyzer@a68e7bc84997
+  resolvedPath: C:\Users\Aula 2\Desktop\platform\Library\PackageCache\com.unity.performance.profile-analyzer@a68e7bc84997
   assetPath: Packages/com.unity.performance.profile-analyzer
   name: com.unity.performance.profile-analyzer
   displayName: Profile Analyzer
@@ -3760,7 +3757,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.5.1
   source: 2
-  resolvedPath: C:\Users\Leonardo\Desktop\platform\Library\PackageCache\com.unity.test-framework@388540dd9ce6
+  resolvedPath: C:\Users\Aula 2\Desktop\platform\Library\PackageCache\com.unity.test-framework@388540dd9ce6
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -3898,7 +3895,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.2.6
   source: 1
-  resolvedPath: C:\Users\Leonardo\Desktop\platform\Library\PackageCache\com.unity.testtools.codecoverage@205a02cbcb39
+  resolvedPath: C:\Users\Aula 2\Desktop\platform\Library\PackageCache\com.unity.testtools.codecoverage@205a02cbcb39
   assetPath: Packages/com.unity.testtools.codecoverage
   name: com.unity.testtools.codecoverage
   displayName: Code Coverage
@@ -4021,7 +4018,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.1
   source: 1
-  resolvedPath: C:\Users\Leonardo\Desktop\platform\Library\PackageCache\com.unity.settings-manager@56a930affa1e
+  resolvedPath: C:\Users\Aula 2\Desktop\platform\Library\PackageCache\com.unity.settings-manager@56a930affa1e
   assetPath: Packages/com.unity.settings-manager
   name: com.unity.settings-manager
   displayName: Settings Manager
@@ -4097,7 +4094,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.5
   source: 2
-  resolvedPath: C:\Users\Leonardo\Desktop\platform\Library\PackageCache\com.unity.ext.nunit@031a54704bff
+  resolvedPath: C:\Users\Aula 2\Desktop\platform\Library\PackageCache\com.unity.ext.nunit@031a54704bff
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit
