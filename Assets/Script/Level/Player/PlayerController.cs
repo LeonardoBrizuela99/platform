@@ -15,22 +15,36 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private int _maxJumps = 2;
     private int _jumpsRemaining;
 
+    private bool _wasGrounded;
+
     private float jumpButtonGracePeriod = 0.2f;
     private float? lastGroundedTime = null;
     private float? jumpButtonPressedTime = null;
 
     private void Update()
     {
-        if (groundController.IsGrounded)
+        bool isGrounded = groundController.IsGrounded;
+
+        // Solo al aterrizar (cuando antes NO estabas grounded)
+        if (isGrounded && !_wasGrounded)
         {
-            lastGroundedTime = Time.time;
             _jumpsRemaining = _maxJumps;
         }
+
+        // Seguimos usando esto para el Coyote Time
+        if (isGrounded)
+        {
+            lastGroundedTime = Time.time;
+        }
+
+        _wasGrounded = isGrounded;
 
     }
 
     private void Awake()
     {
+        _jumpsRemaining = _maxJumps;
+        _wasGrounded = false;
         playerInputController = GetComponent<PlayerInputController>();
         _rigidbody = GetComponent<Rigidbody>();
         groundController = GetComponent<GroundController>();
@@ -68,7 +82,7 @@ public class PlayerController : MonoBehaviour
 
     private void JumpButtonPressed()
     {
-        if (groundController.IsGrounded || _jumpsRemaining > 1)
+        if (groundController.IsGrounded || _jumpsRemaining > 0)
         {
             _jumpTriggered = true;
         }
