@@ -1,5 +1,5 @@
 {
-    "name": "InputSystem_Action",
+    "name": "InputSystem_Actions",
     "maps": [
         {
             "name": "Player",
@@ -16,9 +16,9 @@
                 },
                 {
                     "name": "Jump",
-                    "type": "Value",
+                    "type": "Button",
                     "id": "dbda4ef2-b3bb-48e5-a63a-66b1b2487fdc",
-                    "expectedControlType": "Vector2",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
