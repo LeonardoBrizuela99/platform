@@ -12,6 +12,9 @@ public class PlayerController : MonoBehaviour
     private Rigidbody _rigidbody;
     private bool _jumpTriggered;
 
+    [SerializeField] private int _maxJumps = 2;
+    private int _jumpsRemaining;
+
     private float jumpButtonGracePeriod = 0.2f;
     private float? lastGroundedTime = null;
     private float? jumpButtonPressedTime = null;
@@ -21,6 +24,7 @@ public class PlayerController : MonoBehaviour
         if (groundController.IsGrounded)
         {
             lastGroundedTime = Time.time;
+            _jumpsRemaining = _maxJumps;
         }
 
     }
@@ -57,13 +61,14 @@ public class PlayerController : MonoBehaviour
         {
             velocity.y = _jumpSpeed;
             _jumpTriggered = false;
+            _jumpsRemaining--;
         }
         _rigidbody.linearVelocity = velocity;
     }
 
     private void JumpButtonPressed()
     {
-        if (groundController.IsGrounded)
+        if (groundController.IsGrounded || _jumpsRemaining > 1)
         {
             _jumpTriggered = true;
         }
