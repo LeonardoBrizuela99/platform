@@ -276,3 +276,19 @@ Memory consumption went from 82.8 MB to 82.0 MB.
 Total: 4.766800 ms (FindLiveObjects: 0.417200 ms CreateObjectMapping: 0.219300 ms MarkObjects: 3.474100 ms  DeleteObjects: 0.655500 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 244.712561 seconds.
+  path: Assets/Prefab
+  artifactKey: Guid(af95f6941fb9156429c5b52f38b7aec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab using Guid(af95f6941fb9156429c5b52f38b7aec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '80b890fa912fa47c07a3576e8be06792') in 0.0015153 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.542924 seconds.
+  path: Assets/Prefab/Platform.prefab
+  artifactKey: Guid(22df8d7ed06640d4a9ba0b309451791c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Platform.prefab using Guid(22df8d7ed06640d4a9ba0b309451791c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '70aac8901d500c88a301f247d029ff27') in 0.2391165 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
