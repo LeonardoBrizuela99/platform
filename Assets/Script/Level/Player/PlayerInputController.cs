@@ -10,9 +10,8 @@ public class PlayerInputController : MonoBehaviour
 
     private void OnMove(InputValue inputValue)
     {
-       
+        
         Vector2 input = inputValue.Get<Vector2>();
-
       
         Vector3 camForward = Camera.main.transform.forward;
         Vector3 camRight = Camera.main.transform.right;
@@ -21,7 +20,7 @@ public class PlayerInputController : MonoBehaviour
         camForward.Normalize();
         camRight.Normalize();
 
-        
+       
         Vector3 worldMovement = camForward * input.y + camRight * input.x;
 
        

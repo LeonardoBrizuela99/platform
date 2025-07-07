@@ -41,7 +41,7 @@ public class SimpleCameraFollow : MonoBehaviour
     {
         _mouseX += Input.GetAxis("Mouse X") * rotationSpeed;
         _mouseY -= Input.GetAxis("Mouse Y") * rotationSpeed;
-        _mouseY = Mathf.Clamp(_mouseY, -60f, 60f); 
+        _mouseY = Mathf.Clamp(_mouseY, -60f, 60f);
 
         _desiredRotationAngle = _mouseX;
     }
@@ -58,15 +58,15 @@ public class SimpleCameraFollow : MonoBehaviour
         Quaternion currentRotation = Quaternion.Euler(0, _currentRotationAngle, 0);
         Vector3 desiredPosition = target.position + currentRotation * _offset;
 
-        
+        // Calculate the desired height with damping
         float currentHeight = Mathf.Lerp(transform.position.y, target.position.y + height, heightDamping * Time.deltaTime);
 
-       
+        // Apply the rotation and position
         transform.position = desiredPosition;
         transform.position = new Vector3(transform.position.x, currentHeight, transform.position.z);
 
 
-      
+        // Make the camera look at the target
         transform.LookAt(target.position + Vector3.up * height / 2);
     }
 }
