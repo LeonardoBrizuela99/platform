@@ -7,8 +7,9 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float _speed;
     [SerializeField] private float _jumpSpeed;
 
-    [Header("Orientation (assign your camera or an empty forward‐facing object here)")]
-    [SerializeField] private Transform orientation;
+    private Vector3 moveDirection;
+    //[Header("Orientation (assign your camera or an empty forward‐facing object here)")]
+    //[SerializeField] private Transform orientation;
 
     private PlayerInputController playerInputController;
     private GroundController groundController;
@@ -23,22 +24,24 @@ public class PlayerController : MonoBehaviour
     private float? lastGroundedTime = null;
     private float? jumpButtonPressedTime = null;
 
-    
+
     private void Awake()
     {
+
         _jumpsRemaining = _maxJumps;
         _wasGrounded = false;
 
         playerInputController = GetComponent<PlayerInputController>();
         _rigidbody = GetComponent<Rigidbody>();
         groundController = GetComponent<GroundController>();
-
         playerInputController.OnJumpButtonPressed += JumpButtonPressed;
         playerInputController.OnJumpButtonPressed += RecordJumpPressedTime;
     }
 
     private void Update()
     {
+        moveDirection = (transform.forward * Input.GetAxis("Vertical")) + (transform.right * Input.GetAxis("Horizontal"));
+        moveDirection=moveDirection.normalized *_speed;
         bool isGrounded = groundController.IsGrounded;
 
         if (isGrounded && !_wasGrounded)
@@ -60,7 +63,7 @@ public class PlayerController : MonoBehaviour
 
         velocity.y = _rigidbody.linearVelocity.y;
 
-        
+
         if (jumpButtonPressedTime.HasValue)
         {
             bool withinJumpTime = (Time.time - jumpButtonPressedTime.Value) <= jumpButtonGracePeriod;
@@ -94,4 +97,6 @@ public class PlayerController : MonoBehaviour
     {
         jumpButtonPressedTime = Time.time;
     }
+
+   
 }
