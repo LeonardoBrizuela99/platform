@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638874235198643018
+      ticks: 638875102928290694
     m_Hash: 2439511439
   m_LockFileStatus:
     m_FilePath: C:/Users/Leonardo/Desktop/platform/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638874153810883188
+      ticks: 638875102928300702
     m_Hash: 2188672841
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}

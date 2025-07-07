@@ -358,6 +358,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &868595631
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 868595632}
+  m_Layer: 0
+  m_Name: Pivot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &868595632
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 868595631}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 963194228}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &885556489
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -521,7 +552,8 @@ Transform:
   m_LocalPosition: {x: -5.75, y: 2.04, z: -3.84}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 868595632}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &963194229
@@ -533,15 +565,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 963194225}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 37af0e353badf6b4fa4cfd83cff6df3e, type: 3}
+  m_Script: {fileID: 11500000, guid: 11189cd6d4d65034c8de094e154da54f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1013595544}
-  distance: 5
-  height: 2
-  rotationSpeed: 2
-  heightDamping: 2
-  rotationDamping: 2
+  pivot: {fileID: 868595632}
+  offSet: {x: 0, y: 0, z: 0}
+  useOffsetValues: 0
+  rotateSpeed: 2
 --- !u!1 &1013595540
 GameObject:
   m_ObjectHideFlags: 0
@@ -629,7 +660,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _speed: 4
   _jumpSpeed: 8
-  orientation: {fileID: 0}
   _maxJumps: 2
 --- !u!114 &1013595547
 MonoBehaviour:
